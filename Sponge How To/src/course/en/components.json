@@ -41,7 +41,7 @@
         "_classes": "",
         "_type":"component",
         "_component": "hotgraphic",
-        "_layout": "full",    
+        "_layout": "full",
         "title": "Key Facts",
         "displayTitle": "Key Facts",
         "body": "We live in a multi-device world. The growth of internet enabled devices such as smartphones, tablets and laptops means that increasingly we have to deliver learning solutions that work on all devices. This is not as simple as a desktop and mobile solution; what is required is a multi-device solution.",
@@ -228,5 +228,51 @@
         "_pageLevelProgress": {
             "_isEnabled": true
         }
+    },
+    {
+        "_id":"c-40",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"full",
+        "_attempts":2,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Question This",
+        "displayTitle": "Question This",
+        "body": "If I asked you what colour eyes do I have?",
+        "instruction": "<em>select which colour eyes you think I have.</em>",
+        "_items": [
+            {
+                "text": "Blue",
+                "_shouldBeSelected": true
+            },
+               {
+                "text": "Green",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"Well done you got it right winner.",
+            "_incorrect": {
+                "notFinal": "You've got it wrong ones. your out of here.",
+                "final": "You've got it wrong too many times."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"submit",
+            "reset":"reset",
+            "showCorrectAnswer":"Show me the frigging answers",
+            "hideCorrectAnswer":"Show me what I wrote."
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     }
 ]

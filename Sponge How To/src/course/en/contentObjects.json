@@ -13,5 +13,20 @@
         },
         "linkText":"View",
         "duration":"2 mins"
+    },
+    {
+        "_id":"co-10",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"This is another item",
+        "displayTitle":"This is another item",
+        "body":"Just making another item for this page",
+        "_graphic": {
+            "alt": "Some Welder",
+            "src": "course/en/images/weleder.png"
+        },
+        "linkText":"Go get it",
+        "duration":"5 min"
     }
 ]
